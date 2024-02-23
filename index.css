@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    height: 30px;
+    width: 30px;
+}
+
+.lorem-container {
+    flex-shrink: 0;
+    padding: 40px;
+    background-image: linear-gradient(to right, #f0ea97 50%, #f779f5);
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.bi-list {
+    text-align: center;
+}
+
+@media only screen and (min-width:576px) {
+    .lorem-container {
+        padding: 40px;
+        width: 520px;
+    }
+
+    .Conatiner {
+        display: flex;
+    }
+
+    .set {
+        font-size: 40px;
+    }
+
+    .set-container {
+        display: flex;
+        padding: 30px;
+    }
+
+    .card-container {
+        width: 350px;
+    }
+
+    .set {
+        font-size: 40px;
+    }
+
+    .heading {
+        font-size: 60px;
+    }
+
+    .burger-image {
+        width: 100%;
+        margin-left: 0;
+        height: 82vh;
+    }
+
+    .paragraph {
+        font-size: 12px;
+    }
+}
+
+.dish-image {
+    height: 308px;
+    margin-left: 6px;
+}
+
+.images-container {
+    margin-top: 5px;
+    padding: 40px;
+    background-image: linear-gradient(to right, #f0ea97 50%, #f779f5);
+}
+
+.arrow {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.card-container {
+    margin: 20px;
+    height: 140px;
+    background-color: #f55161;
+    padding: 10px;
+}
+
+.set {
+    font-size: 20px;
+}
+
+.burger-image {
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.image1 {
+    height: 150px;
+    width: 150px;
+}
+
+.items {
+    margin: 0;
+    list-style-type: none;
+    background-color: #e62e43;
+    padding-left: 15px;
+    padding: 7px;
+}
+
+.list-item {
+    font-size: 18px;
+    margin-right: 19px;
+    font-family: Times New Roman;
+}
+
+.button {
+    height: 35px;
+    width: 160px;
+    background-color: #e62e43;
+    border-width: 0;
+    font-family: "Roboto";
+    color: white;
+}
